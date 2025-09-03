@@ -44,14 +44,15 @@ export default function RootLayout({
         <div
           style={{
             position: "fixed",
-            bottom: 5,
-            right: 5,
+            bottom: 5.5,
+            right: 6,
             fontSize: 10,
             color: "#aaa",
             zIndex: 9999,
             pointerEvents: "none",
           }}
         >
+          
           {APP_VERSION}
         </div>
       </body>
